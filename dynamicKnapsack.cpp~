@@ -68,18 +68,18 @@ using namespace std;
     //Limit of the knapsack problem
     cout<<"Weight limit : "<<W<<endl<<endl;
 
-    // Tutorial Aspect. Displaying the current status of the program.
+    // #Tutorial Aspect. Displaying the current status of the program.[Displaying variable values]
     cout<<"...Dynamic Optimization started..."<<endl;
 
-    // Run the dynamic algorithm to produce the optimum value in the knapsack.
+    //Run the dynamic algorithm to produce the optimum value in the knapsack.
     int maxValue = optimizeAndProduce(weights,values);
 
-    // Tutorial Aspect. Displaying the current status of the program.
+    // #Tutorial Aspect. Displaying the current status of the program.[Final Solution]
     cout<<"...Final Solution..."<<endl;
 
     //Presenting the user with the final solution
     presentSolution(maxValue);
-    cout<<endl<<"============Hope you enjoyed the project!==========="<<endl;
+    cout<<endl<<"=======================Hope you enjoyed the project!============================"<<endl;
     return 0;
   }
 
