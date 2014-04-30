@@ -12,7 +12,7 @@ Current Contents
     - Note : You need to have ogdf installed for this.
 
     
-* dynamicKnapsack.cpp
+* knapsack.cpp
     Soluition to the Binary Knapsack problem using dynamic approach.
     - Compiling Instructions
         g++ dynamicKnapsack.cpp -o dynamicKnapsack
